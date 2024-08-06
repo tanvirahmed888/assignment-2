@@ -3,9 +3,16 @@
 .inter{
     font-family: "Inter", sans-serif;
   }
+*{
+    /* background-color: #B9B9B9; */
+    background-color: black;
+    color: white;
+}
+header, nav, div, h1, ul, li, p, button, h3{
 
+}
 /* shared styles */
-/* .white-1{
+.white-1{
     color: rgba(255, 255, 255);
 }
 .white-2{
@@ -13,7 +20,7 @@
 }
 .white-3{
     color: rgba(255, 255, 255, 0.6);
-} */
+}
 .display-flex{
     display: flex;
 }
@@ -37,19 +44,14 @@ border: 2px solid rgb(255, 0, 0);
     margin-left: 47px;
 }
 
-/* .nav-container, .banner{
-    max-width: 1440px;
-    max-height: 715px;
-    margin:57px auto ;
-    background-color: black;
-} */
 
 header{
     max-width: 1440px;
-    max-height: 715px;
+    /* max-height: 715px; */
+    background-color: black;
+
     border: 5px solid salmon;
     margin:0 auto ;
-    /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
 }
 
 /* Banner styles */
@@ -73,19 +75,107 @@ margin-right: 214px;
 
 }
 .cercle{
-    width: 10px solid red;
-    height: 10px solid red;
-    border:10px solid red ;
+    width: 20px;
+    height: 20px;
+    background-color: red;
     border-radius: 50%;
-    border-width: 50%;
 }
 .img-card1{
     border: 2px solid red;
     /* border-width: 193px; */
-    margin-top: -370px;
-    margin-left: 100px;
+    /* margin-top: -370px; */
+    /* margin-left: 100px; */
 }
 .img-card2{
     border: 2px solid blue;
-    margin-top: 154px;
+    /* margin-top: 154px; */
+    justify-items: center;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    color: rgb(58, 208, 28);
+}
+
+/* Section Habit styles */
+
+.section-habit{
+    margin: 100px auto;
+    text-align: center;
+    max-width: 1440px;
+    border: 3px solid red;
+}
+
+.habit-container{
+    justify-content: space-evenly;
+    margin-top: 50px;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.habit-container img{
+    border-radius: 50%;
+}
+
+/* section-run-extra styles */
+
+.section-run-extra{
+    max-width: 1440px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    border: 5px solid tomato;
+    margin: 0 auto;
+}
+.run-extra{
+    max-width: 700px;
+    height: 300px;
+    border: 5px solid royalblue;
+}
+.run-extra-img{
+    object-fit: none;
+    object-position: 66% 33%;
+    width: 366px;
+    height: 312px;
+}
+
+/* Calculator Styles */
+.calcoletor-section{
+    max-width: 1440px;
+    border: 5px solid yellowgreen;
+    margin: 100px auto;
+    justify-content: space-between;
+}
+
+.calcoletor-header{
+text-align: center;
+border: 2px solid rgb(233, 161, 161);
+}
+
+.calcoletor-table{
+
+border: 3px solid salmon;
+}
+.calcoletor-from{
+
+border: 3px solid burlywood;
+display: grid;
+grid-template-columns: repeat(1,1fr);
+justify-content: flex-start;
+align-items: center;
+}
+td, th{
+    border: 1px solid white;
+    padding: 5px 10px;
+}
+table{
+    border-collapse: collapse;
+}
+
+footer p{
+    text-align: center ;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
 }

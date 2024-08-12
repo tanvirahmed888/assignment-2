@@ -28,6 +28,9 @@
     margin: 0 auto;
     padding-top: 3.5rem;
 }
+#bar{
+    display: none;
+}
 .nav-left{
     color: rgb(230, 83, 60);
     font-size: 36px;
@@ -85,6 +88,13 @@ header{
 .banner-headline{
     font-size: 4.8rem;
     font-weight: 900;
+}
+.banner-left p{
+    max-width: 400px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
 }
 .shape{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;

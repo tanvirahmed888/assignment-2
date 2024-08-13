@@ -9,7 +9,6 @@
     background-color: black;
     margin: 0;
     padding: 0;
-    /* background: black; */
     color: rgb(255, 255, 255);
 }
 
@@ -30,6 +29,9 @@
     max-width: 1060px;
     margin: 0 auto;
     padding-top: 3.5rem;
+    background: transparent;
+    /* background: linear-gradient(180.00deg, rgb(17, 17, 17) ,rgb(119, 119, 119)); */
+
 }
 #bar{
     display: none;
@@ -38,9 +40,10 @@
     color: rgb(230, 83, 60);
     font-size: 36px;
     font-weight: 800;
+    background: transparent;
 }
 .nav-right{
-
+    background: transparent;
 }
 .nav-list{
     list-style: none;
@@ -52,7 +55,7 @@
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 39px;
-    /* padding: 10px; */
+    background: transparent;
 }
 .nav-list-item-home{
     background-color: rgb(230, 83, 60);
@@ -65,7 +68,7 @@
 
 /* header style here */
 
-header{
+.header-container{
     max-width: 1440px;
     max-height: 715px;
     background-color: black;
@@ -77,12 +80,15 @@ header{
 .banner-container{
     display: flex;
     justify-content: space-between;
+    background: transparent;
+    /* background: linear-gradient(180.00deg, rgb(17, 17, 17) ,rgb(119, 119, 119)); */
+
 }
 .banner-left{
     margin-top: 3.8rem;
     margin-bottom: 2.81rem;    
     margin-left: 11.8rem;
-
+    background: transparent;
 }
 .btn-left{
     background-color: transparent;
@@ -91,6 +97,7 @@ header{
 .banner-headline{
     font-size: 4.8rem;
     font-weight: 900;
+    background: transparent;
 }
 .banner-left p{
     max-width: 400px;
@@ -98,18 +105,22 @@ header{
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.5px;
+    background: transparent;
 }
 .shape{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: italic;
     font-size: 3.2rem;
+    background: transparent;
 }
 .banner-right{
     position: relative;
+    background: transparent;
 }
 
 .banner-img{
     margin: 0 100px;
+    background: transparent;
 }
 
 .banner-btn1{
@@ -127,6 +138,12 @@ header{
     backdrop-filter: blur(10px);
     background: rgba(255, 255, 255, 0.1);
 }
+.banner-btn1 h1{
+    background: transparent;
+}
+.banner-btn1 p{    
+    background: transparent;
+}
 .banner-btn2-container{
     display: flex;
     width: 206px;
@@ -143,6 +160,12 @@ header{
     backdrop-filter: blur(10px);
     background: rgba(255, 255, 255, 0.1);
 }
+.banner-btn2 h1{
+    background: transparent;
+}
+.banner-btn2 p{
+    background: transparent;
+}
 .banner-circle{
     margin-left: 10px;
     width: 40px;
@@ -156,7 +179,6 @@ header{
     max-height: 452px;
     margin: 100px auto;
     text-align: center;
-    /* background-color: black; */
 }
 .habit-main h1{
     font-size: 48px;
@@ -185,6 +207,7 @@ header{
     justify-content: space-between;
     max-width: 1060px;
     max-height: 371px;
+    border-radius: 25px;
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 30px;
@@ -195,27 +218,35 @@ header{
     width: 443px;
     height: 290px;
     margin: auto 0;
+    background: rgb(34, 34, 34);
+
 }
 .mile-header{
     height: 116px;
     font-size: 48px;
     font-weight: 900;
     margin-top: 41px;
+    background: rgb(34, 34, 34);
+
 }
 .mile-p{
     font-size: 14px;
     font-weight: 400;
     margin-top: 14px;
     margin-bottom: 25px;
+    background: rgb(34, 34, 34);
+
 }
 .mile-right{
-
+background: transparent;
 }
 .mile-img{
     padding: 15px 15px 15px 15px ;
     width: 366px;
     height: 312px;
-    border-radius: 25px;
+    border-radius: 25px ;
+    background: rgb(34, 34, 34);
+
 }
 
 .bmi-calc-headline{
@@ -223,15 +254,18 @@ header{
     height: 120px;
     text-align: center;
     margin: 100px auto 0 auto;
+    background: transparent;
 }
 .bmi-calc-headline h1{
     font-size: 48px;
     font-weight: 900;
     padding-bottom: 7px;
+    background: transparent;
 }
 .bmi-calc-headline p{
     font-size: 14px;
     font-weight: 400;
+    background: transparent;
 }
 
 /* BMI Calculator table style  */
@@ -243,44 +277,57 @@ header{
     max-height: 487px;
     margin: 0 auto;
     color: rgb(255, 255, 255);
-    background: rgb(34, 34, 34);}
+    background: rgb(34, 34, 34);
+}
 .calc-left{
     margin-left: 180px ;
+    background: transparent;
+
 }
 .calc-left h1{
     margin-top: 40px;
     margin-bottom: 50px;
+    background: transparent;
 }
 
 .calc-left table{
     border-collapse: collapse;
     width: 310px;
     height: 216px;
+    background: transparent;
 }
 
 .calc-left td,th{
     border: 1px solid rgb(255, 255, 255);
     padding: 5px 10px;
     text-align: left;
+    background: rgb(34, 34, 34);
+    color: rgba(255, 255, 255, 0.5);
+}
+.calc-left th{
+    color: rgb(255, 255, 255);
 }
 .calc-right{
     margin-right: 180px;
     padding: 20px 10px;
+    background: rgb(34, 34, 34);
 }
 .calc-right h1{
     font-size: 28px;
     font-weight: 900;
     margin-bottom: 14px;
+    background: transparent;
 }
 .calc-right p{
     font-size: 14px;
     font-weight: 400;
     margin-bottom: 34px;
+    background: transparent;
 }
 
 #calc-form{
     gap: 6px;
-    
+    background: transparent;
 }
 #height{
     width: 282.5px;

@@ -48,4 +48,38 @@
     .habit-container{
         flex-direction: column;
     }
+
+    /* extra mile responsive   */
+
+    .mile-container{
+        flex-direction: column;
+        width: 353px;
+        height: 531px;
+        padding-left: 20px;
+        padding-right: 30px;
+        background: rgb(34, 34, 34);
+        margin: 840px auto;
+    }
+    .mile-left{
+        width: 443px;
+        height: 290px;
+        margin: auto 0;
+    }
+    .mile-header{
+        height: fit-content;
+        font-size: 38px;
+    }
+    .mile-p{
+        font-size: 10px;
+        font-weight: 400;
+        margin-top: 15px;
+        margin-bottom: 18px;
+    }
+    .mile-img{
+        padding: 15px 15px 15px 15px ;
+        width: 287px;
+        height: 170px;
+        border-radius: 25px;
+    }
+
 }

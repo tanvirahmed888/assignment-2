@@ -6,9 +6,10 @@
 /* Shared styles  */
 
 *{
-    background-color: black;
+    /* background-color: black; */
     margin: 0;
     padding: 0;
+    background: black;
     color: rgb(255, 255, 255);
 }
 
@@ -148,6 +149,7 @@ header{
     background-color: rgb(230, 83, 60);;
     border-radius: 50%;
 }
+/* section habit styles here  */
 .habit{
     max-width: 1044px;
     max-height: 452px;
@@ -166,10 +168,50 @@ header{
 }
 .habit-container{
     display: flex;
+    gap: 70px;
     justify-content: space-around;
     margin-top: 50px;
 }
 
 .habit-container img{
     border-radius: 50%;
+}
+
+/* section extra mile styles here  */
+
+.mile-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1060px;
+    max-height: 371px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 30px;
+    background: rgb(34, 34, 34);
+}
+.mile-left{
+    width: 443px;
+    height: 290px;
+    margin: auto 0;
+}
+.mile-header{
+    height: 116px;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 41px;
+}
+.mile-p{
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 14px;
+    margin-bottom: 25px;
+}
+.mile-right{
+
+}
+.mile-img{
+    padding: 15px 15px 15px 15px ;
+    width: 366px;
+    height: 312px;
+    border-radius: 25px;
 }

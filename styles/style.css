@@ -280,7 +280,7 @@ background: transparent;
     background: rgb(34, 34, 34);
 }
 .calc-left{
-    margin-left: 180px ;
+    padding-left: 30px;
     background: transparent;
 
 }
@@ -308,8 +308,7 @@ background: transparent;
     color: rgb(255, 255, 255);
 }
 .calc-right{
-    margin-right: 180px;
-    padding: 20px 10px;
+    padding: 20px 40px;
     background: rgb(34, 34, 34);
 }
 .calc-right h1{
@@ -368,4 +367,212 @@ background: transparent;
     border-radius: 10px;
     color: rgba(255, 255, 255, 0.6)
     border: 1px solid rgb(255, 255, 255);
+}
+/* Trainer section styles */
+
+.team-header{
+    align-items: center;
+    text-align: center;
+    margin-top: 100px ;
+    margin-bottom: 50px;
+}
+
+.trainer{
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 1080px;
+    height: 504px;
+    display: grid;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    padding: 10px;
+    grid-template-areas: 
+    
+    "a b c"
+    "d e f"
+    ;
+}
+.trainer1{
+    width: 350px;
+    height: 240px;
+    grid-area: a;
+    position: relative;
+}
+.trainer1-img img{
+    background: transparent;
+    width: 100%;
+    border-radius: 10px;
+}
+.trainer2{
+    grid-area: b;
+    width: 350px;
+    height: 240px;
+    position: relative;
+
+}
+
+.trainer2-img img{
+    background: transparent;
+    width: 100%;
+    border-radius: 10px;
+}
+.trainer3{
+    grid-area: c;
+    width: 350px;
+    height: 240px;
+    position: relative;
+
+}
+.trainer3-img img{
+    background: transparent;
+    width: 100%;
+    border-radius: 10px;
+}
+.trainer4{
+    grid-area: d;
+    width: 350px;
+    height: 240px;
+    position: relative;
+
+    }
+.trainer4-img img{
+    width: 100%;
+    border-radius: 10px;
+    background: transparent;
+    }
+
+.trainer5{
+    grid-area: e;
+    width: 350px;
+    height: 240px;
+    position: relative;
+
+    }
+.trainer5-img img{
+    background: transparent;
+    width: 100%;
+    border-radius: 10px;
+    }
+.trainer6{
+    grid-area: f;
+    width: 350px;
+    height: 240px;
+    position: relative;
+
+}
+.trainer6-img img{
+    background: transparent;
+    width: 100%;
+    border-radius: 10px;
+}
+.trainer1-header{
+    position: absolute;
+    bottom: 2%;
+    left: 15px;
+    background: transparent;
+}
+.trainer2-header{
+    position: absolute;
+    bottom: 2%;
+    left: 15px;
+    background: transparent;
+}
+.trainer3-header{
+    position: absolute;
+    bottom: 2%;
+    left: 15px;
+    background: transparent;
+}
+.trainer4-header{
+    position: absolute;
+    bottom: 2%;
+    left: 15px;
+    background: transparent;
+}
+.trainer5-header{
+    position: absolute;
+    bottom: 2%;
+    left: 15px;
+    background: transparent;
+}
+.trainer6-header{
+    position: absolute;
+    bottom: 2%;
+    left: 15px;
+    background: transparent;
+}
+.trainer h1,h6,img{
+    background: transparent;
+}
+
+/* footer section design */
+.footer{
+    max-width: 1440px;
+    margin-top: 100px;
+    background: rgb(34, 34, 34);;
+    display: grid;
+    justify-content: space-evenly;
+    padding: 30px;
+    grid-template-areas: 
+    "a b c"
+    "d d d"
+
+;
+}
+.footer-left{
+    background: transparent;
+    max-width: 470px;
+    grid-area: a;
+}
+.footer-left h1{
+    background: transparent;
+    color: rgb(230, 83, 60);
+    font-style: italic;
+    font-size: 64px;
+    font-weight: 800;
+    padding-bottom: 15px;
+}
+.footer-left p{
+    background: transparent;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.footer-middle{
+    background: transparent;
+    max-width: 470px;
+    grid-area: b;
+}
+.footer-middle h1{
+    background: transparent;
+}
+.footer-middle ul, li{
+    background: transparent;
+    list-style: none;
+    padding: 15px 0;
+    color: rgba(255, 255, 255, 0.5);
+}
+.footer-right{
+    background: transparent;
+    max-width: 470px;
+    grid-area: c;
+}
+.footer-right h1{
+    background: transparent;
+}
+.footer-right ul, li{
+    background: transparent;
+    padding: 15px 0;
+    color: rgba(255, 255, 255, 0.5);
+}
+.footer-last{
+    background: transparent;
+    text-align: center;
+    grid-area: d;
+}
+.footer-last p{
+    background: transparent;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.5);
 }

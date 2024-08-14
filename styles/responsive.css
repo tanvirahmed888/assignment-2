@@ -48,6 +48,12 @@
     .habit-container{
         flex-direction: column;
     }
+    .Change Your Habits{
+    width: 90vw;
+    }
+    .believe fitness{
+    width: 90vw;
+    }
 
     /* extra mile responsive   */
 
@@ -137,17 +143,28 @@ background: transparent;
         height: 216px;
     }
     .calc-right{
-        margin-left: 20px;
+        margin-left: 10px;
     }
     .calc-right h1{
+        width: 70vw;
         font-size: 20px;
         font-weight: 900;
         margin-bottom: 14px;
     }
     .calc-right p{
+        width: 70vw;
         font-size: 12px;
         font-weight: 400;
         margin-bottom: 34px;
+    }
+    .calc-form{
+        /* gap: 10px; */
+    }
+    #weight{
+        margin-top: 10px;
+    }
+    #age{
+        margin-top: 10px;
     }
     #sex{
         width: 344.65px;
@@ -156,12 +173,14 @@ background: transparent;
         border-radius: 10px;
         color: rgba(255, 255, 255, 0.6)
         border: 1px solid rgb(255, 255, 255);
+        margin-top: 10px;
     }
     #activity{
         width: 344.65px;
         height: 72.9px;
         padding: 12px 40px 12px 20px;
         border-radius: 10px;
+        margin-top: 10px;
         color: rgba(255, 255, 255, 0.6)
         border: 1px solid rgb(255, 255, 255);
     }
@@ -171,5 +190,56 @@ background: transparent;
     }
     .calc-right{
 background: transparent;
+    }
+    /* Trainer section responsive */
+    .trainer{
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        width: fit-content;
+        height: fit-content;
+        grid-template-columns: repeat(1) 1fr;
+        background: black;
+        border-radius: 20px;
+        padding: 10px;
+        grid-template-areas: 
+        
+        "a"
+        "b"
+        "c"
+        "d"
+        "e"
+        "f"
+        ;
+    }
+    .team-header{
+        align-items: center;
+        text-align: center;
+        margin-top: 500px ;
+        margin-bottom: 20px;
+        font-size: small;
+    }
+    /* footer section responsive */
+    .footer{
+        max-width: 440px;
+        margin-top: 100px;
+        background: black;
+        gap: 10px;
+        justify-content: space-evenly;
+
+        grid-template-areas: 
+        "a"
+        "b"
+        "c"
+        "d"
+    
+    ;
+    }
+    .footer-middle{
+        margin-top: 30px;
+    }
+    footer-right{
+        margin-top: 30px;
     }
 }
